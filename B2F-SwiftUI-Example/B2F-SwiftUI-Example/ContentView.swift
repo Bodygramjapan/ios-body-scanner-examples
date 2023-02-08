@@ -10,7 +10,11 @@ import WebKit
 
 struct ContentView: View {
   var body: some View {
-    
+    NavigationView {
+      NavigationLink(destination: WebView()) {
+        Text("Open")
+      }
+    }
   }
 }
 
