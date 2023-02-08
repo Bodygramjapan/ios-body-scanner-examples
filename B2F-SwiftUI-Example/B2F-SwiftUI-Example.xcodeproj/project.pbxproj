@@ -11,6 +11,7 @@
 		106ED8FA2993675500181585 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106ED8F92993675500181585 /* ContentView.swift */; };
 		106ED8FC2993675700181585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 106ED8FB2993675700181585 /* Assets.xcassets */; };
 		106ED8FF2993675700181585 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 106ED8FE2993675700181585 /* Preview Assets.xcassets */; };
+		106ED90929937C8F00181585 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 106ED90829937C8F00181585 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		106ED8F92993675500181585 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		106ED8FB2993675700181585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		106ED8FE2993675700181585 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		106ED90829937C8F00181585 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				106ED8F72993675500181585 /* B2F_SwiftUI_ExampleApp.swift */,
 				106ED8F92993675500181585 /* ContentView.swift */,
+				106ED90729937BF600181585 /* Resources */,
 				106ED8FB2993675700181585 /* Assets.xcassets */,
 				106ED8FD2993675700181585 /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				106ED8FE2993675700181585 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		106ED90729937BF600181585 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				106ED90829937C8F00181585 /* index.html */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				106ED90929937C8F00181585 /* index.html in Resources */,
 				106ED8FF2993675700181585 /* Preview Assets.xcassets in Resources */,
 				106ED8FC2993675700181585 /* Assets.xcassets in Resources */,
 			);
