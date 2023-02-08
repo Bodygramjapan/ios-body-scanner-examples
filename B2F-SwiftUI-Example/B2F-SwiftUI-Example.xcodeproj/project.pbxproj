@@ -13,6 +13,7 @@
 		106ED8FF2993675700181585 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 106ED8FE2993675700181585 /* Preview Assets.xcassets */; };
 		106ED90929937C8F00181585 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 106ED90829937C8F00181585 /* index.html */; };
 		106ED90C29937D5000181585 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 106ED90A29937D5000181585 /* index.js */; };
+		106ED90D29937D5000181585 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 106ED90B29937D5000181585 /* style.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		106ED8FE2993675700181585 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		106ED90829937C8F00181585 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		106ED90A29937D5000181585 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		106ED90B29937D5000181585 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				106ED90829937C8F00181585 /* index.html */,
 				106ED90A29937D5000181585 /* index.js */,
+				106ED90B29937D5000181585 /* style.css */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			files = (
 				106ED90929937C8F00181585 /* index.html in Resources */,
 				106ED8FF2993675700181585 /* Preview Assets.xcassets in Resources */,
+				106ED90D29937D5000181585 /* style.css in Resources */,
 				106ED8FC2993675700181585 /* Assets.xcassets in Resources */,
 				106ED90C29937D5000181585 /* index.js in Resources */,
 			);
