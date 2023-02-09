@@ -19,10 +19,12 @@ struct ContentView: View {
 }
 
 struct WebView: UIViewRepresentable {
-  private let webView = WKWebView()
+  private let webView: WKWebView
   private let request: URLRequest
   
   init() {
+    webView = WKWebView()
+    
     let url = Bundle.main.url(forResource: "index", withExtension: "html")!
     request = URLRequest(url: url)
   }
