@@ -34,4 +34,10 @@ private class WebViewViewController: UIViewController {
     view = BGWebView(frame: .zero, configuration: configuration)
   }
   
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    let url = Bundle.main.url(forResource: "index", withExtension: "html")!
+    let request = URLRequest(url: url)
+    (view as? BGWebView)?.load(request)
+  }
 }
