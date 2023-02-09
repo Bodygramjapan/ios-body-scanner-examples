@@ -11,9 +11,19 @@ class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view.
+    
+    let button = UIButton()
+    button.setTitle("Open", for: .normal)
+    button.setTitleColor(.blue, for: .normal)
+    button.addTarget(self, action: #selector(open), for: .touchUpInside)
+    button.sizeToFit()
+    button.center = self.view.center
+    self.view.addSubview(button)
+    self.view.backgroundColor = .white
   }
-
-
+  
+  @objc private func open() {
+    
+  }
 }
 
