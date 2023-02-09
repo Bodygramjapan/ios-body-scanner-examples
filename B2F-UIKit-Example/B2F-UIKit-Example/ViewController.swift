@@ -27,3 +27,6 @@ class ViewController: UIViewController {
   }
 }
 
+private class WebViewViewController: UIViewController {
+  
+}
