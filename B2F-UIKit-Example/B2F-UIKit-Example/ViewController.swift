@@ -28,5 +28,10 @@ class ViewController: UIViewController {
 }
 
 private class WebViewViewController: UIViewController {
+  override func loadView() {
+    super.loadView()
+    let configuration = BGWebViewConfiguration()
+    view = BGWebView(frame: .zero, configuration: configuration)
+  }
   
 }
