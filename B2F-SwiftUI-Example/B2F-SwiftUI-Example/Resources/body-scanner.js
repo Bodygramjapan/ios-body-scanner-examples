@@ -3,9 +3,10 @@ const widget = new BodygramScanningWidget('scan', {
     systemOfMeasurement: 'metric',
     onError: error => {},
     onResult: result => {},
-    onLoad: () => {},
+    onLoad: () => {
+      widget.toggle()
+    },
 })
 
 widget.insert()
-widget.toggle()
 widget.remove()
