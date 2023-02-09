@@ -23,7 +23,8 @@ struct WebView: UIViewRepresentable {
   private let request: URLRequest
   
   init() {
-    webView = BGWebView()
+    let configuration = BGWebViewConfiguration()
+    webView = BGWebView(frame: .zero, configuration: configuration)
     
     let url = Bundle.main.url(forResource: "index", withExtension: "html")!
     request = URLRequest(url: url)
