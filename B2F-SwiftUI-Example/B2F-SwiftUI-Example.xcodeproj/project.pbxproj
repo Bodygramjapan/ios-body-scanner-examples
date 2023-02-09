@@ -27,6 +27,7 @@
 		106ED90A29937D5000181585 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
 		106ED90B29937D5000181585 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 		106ED90E299394A000181585 /* body-scanner.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "body-scanner.js"; sourceTree = "<group>"; };
+		106ED91129949BB300181585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 		106ED8F62993675500181585 /* B2F-SwiftUI-Example */ = {
 			isa = PBXGroup;
 			children = (
+				106ED91129949BB300181585 /* Info.plist */,
 				106ED8F72993675500181585 /* B2F_SwiftUI_ExampleApp.swift */,
 				106ED8F92993675500181585 /* ContentView.swift */,
 				106ED90729937BF600181585 /* Resources */,
@@ -294,6 +296,7 @@
 				DEVELOPMENT_TEAM = 26MMSN8MLU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "B2F-SwiftUI-Example/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -323,6 +326,7 @@
 				DEVELOPMENT_TEAM = 26MMSN8MLU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "B2F-SwiftUI-Example/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
