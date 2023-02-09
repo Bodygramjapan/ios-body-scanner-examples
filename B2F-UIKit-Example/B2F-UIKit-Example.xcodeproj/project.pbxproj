@@ -12,6 +12,12 @@
 		106ED9652994DABB00181585 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106ED9642994DABB00181585 /* ViewController.swift */; };
 		106ED96A2994DABC00181585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 106ED9692994DABC00181585 /* Assets.xcassets */; };
 		106ED96D2994DABC00181585 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 106ED96B2994DABC00181585 /* LaunchScreen.storyboard */; };
+		106ED99C2994E23D00181585 /* BGWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106ED99A2994E23D00181585 /* BGWebView.swift */; };
+		106ED99D2994E23D00181585 /* BGWebViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106ED99B2994E23D00181585 /* BGWebViewConfiguration.swift */; };
+		106ED9A52994E25B00181585 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 106ED9A12994E25A00181585 /* index.html */; };
+		106ED9A62994E25B00181585 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 106ED9A22994E25A00181585 /* index.js */; };
+		106ED9A72994E25B00181585 /* body-scanner.js in Resources */ = {isa = PBXBuildFile; fileRef = 106ED9A32994E25A00181585 /* body-scanner.js */; };
+		106ED9A82994E25B00181585 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 106ED9A42994E25A00181585 /* style.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		106ED9692994DABC00181585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		106ED96C2994DABC00181585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		106ED96E2994DABC00181585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		106ED99A2994E23D00181585 /* BGWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGWebView.swift; sourceTree = "<group>"; };
+		106ED99B2994E23D00181585 /* BGWebViewConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGWebViewConfiguration.swift; sourceTree = "<group>"; };
+		106ED9A12994E25A00181585 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		106ED9A22994E25A00181585 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		106ED9A32994E25A00181585 /* body-scanner.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "body-scanner.js"; sourceTree = "<group>"; };
+		106ED9A42994E25A00181585 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +69,35 @@
 				106ED9602994DABB00181585 /* AppDelegate.swift */,
 				106ED9622994DABB00181585 /* SceneDelegate.swift */,
 				106ED9642994DABB00181585 /* ViewController.swift */,
+				106ED9992994E23D00181585 /* swift */,
+				106ED9A02994E25A00181585 /* www */,
 				106ED9692994DABC00181585 /* Assets.xcassets */,
 				106ED96B2994DABC00181585 /* LaunchScreen.storyboard */,
 				106ED96E2994DABC00181585 /* Info.plist */,
 			);
 			path = "B2F-UIKit-Example";
+			sourceTree = "<group>";
+		};
+		106ED9992994E23D00181585 /* swift */ = {
+			isa = PBXGroup;
+			children = (
+				106ED99A2994E23D00181585 /* BGWebView.swift */,
+				106ED99B2994E23D00181585 /* BGWebViewConfiguration.swift */,
+			);
+			name = swift;
+			path = ../../common/swift;
+			sourceTree = "<group>";
+		};
+		106ED9A02994E25A00181585 /* www */ = {
+			isa = PBXGroup;
+			children = (
+				106ED9A12994E25A00181585 /* index.html */,
+				106ED9A22994E25A00181585 /* index.js */,
+				106ED9A32994E25A00181585 /* body-scanner.js */,
+				106ED9A42994E25A00181585 /* style.css */,
+			);
+			name = www;
+			path = ../../common/www;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +158,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				106ED9A52994E25B00181585 /* index.html in Resources */,
+				106ED9A82994E25B00181585 /* style.css in Resources */,
 				106ED96D2994DABC00181585 /* LaunchScreen.storyboard in Resources */,
 				106ED96A2994DABC00181585 /* Assets.xcassets in Resources */,
+				106ED9A72994E25B00181585 /* body-scanner.js in Resources */,
+				106ED9A62994E25B00181585 /* index.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +174,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				106ED99C2994E23D00181585 /* BGWebView.swift in Sources */,
 				106ED9652994DABB00181585 /* ViewController.swift in Sources */,
 				106ED9612994DABB00181585 /* AppDelegate.swift in Sources */,
+				106ED99D2994E23D00181585 /* BGWebViewConfiguration.swift in Sources */,
 				106ED9632994DABB00181585 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
