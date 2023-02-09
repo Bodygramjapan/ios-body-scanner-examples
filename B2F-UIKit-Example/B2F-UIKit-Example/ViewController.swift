@@ -23,7 +23,8 @@ class ViewController: UIViewController {
   }
   
   @objc private func open() {
-    
+    let vc = WebViewViewController()
+    navigationController?.pushViewController(vc, animated: true)
   }
 }
 
