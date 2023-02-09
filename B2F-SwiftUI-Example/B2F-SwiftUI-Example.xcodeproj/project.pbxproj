@@ -14,8 +14,8 @@
 		106ED98B2994E05500181585 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 106ED9872994E05500181585 /* style.css */; };
 		106ED98C2994E05500181585 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 106ED9882994E05500181585 /* index.html */; };
 		106ED98D2994E05500181585 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 106ED9892994E05500181585 /* index.js */; };
-		106ED9902994E0AC00181585 /* BGWebViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106ED98F2994E0AC00181585 /* BGWebViewConfiguration.swift */; };
-		106ED9922994E0DB00181585 /* BGWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106ED9912994E0DB00181585 /* BGWebView.swift */; };
+		106ED9952994E14700181585 /* BGWebViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106ED9932994E14700181585 /* BGWebViewConfiguration.swift */; };
+		106ED9962994E14700181585 /* BGWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106ED9942994E14700181585 /* BGWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +28,8 @@
 		106ED9872994E05500181585 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = style.css; path = ../../../common/www/style.css; sourceTree = "<group>"; };
 		106ED9882994E05500181585 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = ../../../common/www/index.html; sourceTree = "<group>"; };
 		106ED9892994E05500181585 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = index.js; path = ../../../common/www/index.js; sourceTree = "<group>"; };
-		106ED98F2994E0AC00181585 /* BGWebViewConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGWebViewConfiguration.swift; sourceTree = "<group>"; };
-		106ED9912994E0DB00181585 /* BGWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGWebView.swift; sourceTree = "<group>"; };
+		106ED9932994E14700181585 /* BGWebViewConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BGWebViewConfiguration.swift; path = ../../../common/swift/BGWebViewConfiguration.swift; sourceTree = "<group>"; };
+		106ED9942994E14700181585 /* BGWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BGWebView.swift; path = ../../../common/swift/BGWebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +94,8 @@
 		106ED98E2994E0A100181585 /* swift */ = {
 			isa = PBXGroup;
 			children = (
-				106ED98F2994E0AC00181585 /* BGWebViewConfiguration.swift */,
-				106ED9912994E0DB00181585 /* BGWebView.swift */,
+				106ED9942994E14700181585 /* BGWebView.swift */,
+				106ED9932994E14700181585 /* BGWebViewConfiguration.swift */,
 			);
 			path = swift;
 			sourceTree = "<group>";
@@ -175,8 +175,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				106ED8F82993675500181585 /* B2F_SwiftUI_ExampleApp.swift in Sources */,
-				106ED9922994E0DB00181585 /* BGWebView.swift in Sources */,
-				106ED9902994E0AC00181585 /* BGWebViewConfiguration.swift in Sources */,
+				106ED9962994E14700181585 /* BGWebView.swift in Sources */,
+				106ED9952994E14700181585 /* BGWebViewConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
