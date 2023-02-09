@@ -9,4 +9,3 @@ const widget = new BodygramScanningWidget('scan', {
 })
 
 widget.insert()
-widget.remove()
