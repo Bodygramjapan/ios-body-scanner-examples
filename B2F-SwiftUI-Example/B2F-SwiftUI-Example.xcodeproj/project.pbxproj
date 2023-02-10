@@ -10,12 +10,12 @@
 		106ED8F82993675500181585 /* B2F_SwiftUI_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106ED8F72993675500181585 /* B2F_SwiftUI_ExampleApp.swift */; };
 		106ED8FC2993675700181585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 106ED8FB2993675700181585 /* Assets.xcassets */; };
 		106ED8FF2993675700181585 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 106ED8FE2993675700181585 /* Preview Assets.xcassets */; };
-		106ED98A2994E05500181585 /* body-scanner.js in Resources */ = {isa = PBXBuildFile; fileRef = 106ED9862994E05500181585 /* body-scanner.js */; };
-		106ED98B2994E05500181585 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 106ED9872994E05500181585 /* style.css */; };
-		106ED98C2994E05500181585 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 106ED9882994E05500181585 /* index.html */; };
-		106ED98D2994E05500181585 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 106ED9892994E05500181585 /* index.js */; };
-		106ED9952994E14700181585 /* BGWebViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106ED9932994E14700181585 /* BGWebViewConfiguration.swift */; };
-		106ED9962994E14700181585 /* BGWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106ED9942994E14700181585 /* BGWebView.swift */; };
+		106ED9B4299611A400181585 /* BGWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106ED9B2299611A400181585 /* BGWebView.swift */; };
+		106ED9B5299611A400181585 /* BGWebViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106ED9B3299611A400181585 /* BGWebViewConfiguration.swift */; };
+		106ED9BB299611B500181585 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 106ED9B7299611B500181585 /* index.html */; };
+		106ED9BC299611B500181585 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 106ED9B8299611B500181585 /* index.js */; };
+		106ED9BD299611B500181585 /* body-scanner.js in Resources */ = {isa = PBXBuildFile; fileRef = 106ED9B9299611B500181585 /* body-scanner.js */; };
+		106ED9BE299611B500181585 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 106ED9BA299611B500181585 /* style.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,12 +24,12 @@
 		106ED8FB2993675700181585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		106ED8FE2993675700181585 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		106ED91129949BB300181585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		106ED9862994E05500181585 /* body-scanner.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "body-scanner.js"; path = "../../../common/www/body-scanner.js"; sourceTree = "<group>"; };
-		106ED9872994E05500181585 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = style.css; path = ../../../common/www/style.css; sourceTree = "<group>"; };
-		106ED9882994E05500181585 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = ../../../common/www/index.html; sourceTree = "<group>"; };
-		106ED9892994E05500181585 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = index.js; path = ../../../common/www/index.js; sourceTree = "<group>"; };
-		106ED9932994E14700181585 /* BGWebViewConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BGWebViewConfiguration.swift; path = ../../../common/swift/BGWebViewConfiguration.swift; sourceTree = "<group>"; };
-		106ED9942994E14700181585 /* BGWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BGWebView.swift; path = ../../../common/swift/BGWebView.swift; sourceTree = "<group>"; };
+		106ED9B2299611A400181585 /* BGWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGWebView.swift; sourceTree = "<group>"; };
+		106ED9B3299611A400181585 /* BGWebViewConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGWebViewConfiguration.swift; sourceTree = "<group>"; };
+		106ED9B7299611B500181585 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		106ED9B8299611B500181585 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		106ED9B9299611B500181585 /* body-scanner.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "body-scanner.js"; sourceTree = "<group>"; };
+		106ED9BA299611B500181585 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +64,8 @@
 			children = (
 				106ED91129949BB300181585 /* Info.plist */,
 				106ED8F72993675500181585 /* B2F_SwiftUI_ExampleApp.swift */,
-				106ED98E2994E0A100181585 /* swift */,
-				106ED90729937BF600181585 /* www */,
+				106ED9B1299611A400181585 /* swift */,
+				106ED9B6299611B500181585 /* www */,
 				106ED8FB2993675700181585 /* Assets.xcassets */,
 				106ED8FD2993675700181585 /* Preview Content */,
 			);
@@ -80,24 +80,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		106ED90729937BF600181585 /* www */ = {
+		106ED9B1299611A400181585 /* swift */ = {
 			isa = PBXGroup;
 			children = (
-				106ED9862994E05500181585 /* body-scanner.js */,
-				106ED9882994E05500181585 /* index.html */,
-				106ED9892994E05500181585 /* index.js */,
-				106ED9872994E05500181585 /* style.css */,
+				106ED9B2299611A400181585 /* BGWebView.swift */,
+				106ED9B3299611A400181585 /* BGWebViewConfiguration.swift */,
 			);
-			path = www;
+			name = swift;
+			path = ../../common/swift;
 			sourceTree = "<group>";
 		};
-		106ED98E2994E0A100181585 /* swift */ = {
+		106ED9B6299611B500181585 /* www */ = {
 			isa = PBXGroup;
 			children = (
-				106ED9942994E14700181585 /* BGWebView.swift */,
-				106ED9932994E14700181585 /* BGWebViewConfiguration.swift */,
+				106ED9B7299611B500181585 /* index.html */,
+				106ED9B8299611B500181585 /* index.js */,
+				106ED9B9299611B500181585 /* body-scanner.js */,
+				106ED9BA299611B500181585 /* style.css */,
 			);
-			path = swift;
+			name = www;
+			path = ../../common/www;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,12 +160,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				106ED98C2994E05500181585 /* index.html in Resources */,
+				106ED9BB299611B500181585 /* index.html in Resources */,
+				106ED9BE299611B500181585 /* style.css in Resources */,
 				106ED8FF2993675700181585 /* Preview Assets.xcassets in Resources */,
-				106ED98B2994E05500181585 /* style.css in Resources */,
-				106ED98D2994E05500181585 /* index.js in Resources */,
-				106ED98A2994E05500181585 /* body-scanner.js in Resources */,
 				106ED8FC2993675700181585 /* Assets.xcassets in Resources */,
+				106ED9BD299611B500181585 /* body-scanner.js in Resources */,
+				106ED9BC299611B500181585 /* index.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,9 +176,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				106ED9B4299611A400181585 /* BGWebView.swift in Sources */,
 				106ED8F82993675500181585 /* B2F_SwiftUI_ExampleApp.swift in Sources */,
-				106ED9962994E14700181585 /* BGWebView.swift in Sources */,
-				106ED9952994E14700181585 /* BGWebViewConfiguration.swift in Sources */,
+				106ED9B5299611A400181585 /* BGWebViewConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
