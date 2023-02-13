@@ -1,13 +1,13 @@
 This repository contains two example iOS projects which showcase how to implement *Body Scanner* widget. One project uses SwiftUI and the other one uses UIKit.
 
 ## Previous considerations
-- These projects assume you **already have** a Session ID. To know how to generate it please refer to the [Body Scanner User Guide Step 1](https://developers.bodygram.com/scan/integration/#step-1-obtain-a-session-id-for-embedding-the-widget)
+- These projects assume you **already have** a [Session ID](common/www/body-scanner.js#L2). To know how to generate it please refer to the [Body Scanner User Guide Step 1](https://developers.bodygram.com/scan/integration/#step-1-obtain-a-session-id-for-embedding-the-widget)
 - Since Body Scanner makes use of the camera, it is **necessary** to have `NSCameraUsageDescription` key in your app’s Info.plist.
 
 ## Remository structure
 - [B2F-SwiftUI-Example/B2F_SwiftUI_ExampleApp](B2F-SwiftUI-Example/B2F-SwiftUI-Example/B2F_SwiftUI_ExampleApp.swift): SwiftUI project entry point to open web page.
 - [B2F-UIKit-Example/ViewController](B2F-UIKit-Example/B2F-UIKit-Example/ViewController.swift): UIKit project entry point to open web page.
-- [common/www](common/www): Contains the web code taken from [Body Scanner User Guide Step 2](https://developers.bodygram.com/scan/integration/#step-2-embed-the-body-scanner-widget-in-your-page)
+- [common/www](common/www): Contains the web code (taken from [Body Scanner User Guide Step 2](https://developers.bodygram.com/scan/integration/#step-2-embed-the-body-scanner-widget-in-your-page)) used on both projects.
 - [common/swift](common/swift): Contains WebKit code used on both projects.
 
 ### Entry points explanation
