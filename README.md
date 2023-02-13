@@ -23,6 +23,12 @@ This repository contains two example iOS projects which showcase how to implemen
 - `BGWebView` (subclass of `WKWebView`): The **important** thing is to set *uiDelegate* even if there is no functions implemented. This is needed so the motion sensor permissions request is shown.
 - `BGWebViewConfiguration` (subclass of `WKWebViewConfiguration`): The **important** thing is to set *allowsInlineMediaPlayback = true* so the camera is shown properly.
 
+## Screencasts
+
+| SwiftUI                                                                                                            | UIKit                                                                                                            |
+|--------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| ![SwiftUI](https://user-images.githubusercontent.com/114892074/218424095-bac7f050-a550-4d13-9ff9-802c18ff8e1b.gif) | ![UIKit](https://user-images.githubusercontent.com/114892074/218424158-62970800-a297-43c6-b571-4a3b9a27976a.gif) |
+
 ----
 
 If you think this document is not clear enough please feel free to create a PR/issue.
