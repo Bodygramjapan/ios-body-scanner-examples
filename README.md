@@ -1,5 +1,7 @@
 This repository contains two example iOS projects which showcase how to implement *Body Scanner* widget. One project uses SwiftUI and the other one uses UIKit.
 
+**iOS supported versions**: 15.5 and above (15.0 is supported **only** when loading the widget from a hosted server).
+
 ## Previous considerations
 - These projects assume you **already have** a [Session ID](common/www/body-scanner.js#L2). To know how to generate it please refer to the [Body Scanner User Guide Step 1](https://developers.bodygram.com/scan/integration/#step-1-obtain-a-session-id-for-embedding-the-widget)
 - Since Body Scanner makes use of the camera, it is **necessary** to have `NSCameraUsageDescription` key in your app’s Info.plist.
