@@ -27,8 +27,7 @@ This repository contains two example iOS projects which showcase how to implemen
 
 | SwiftUI                                                                                                            | UIKit                                                                                                            |
 |--------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
-| ![SwiftUI](https://user-images.githubusercontent.com/114892074/218424095-bac7f050-a550-4d13-9ff9-802c18ff8e1b.gif) | ![UIKit](https://user-images.githubusercontent.com/114892074/218424158-62970800-a297-43c6-b571-4a3b9a27976a.gif) |
+| ![SwiftUI](https://user-images.githubusercontent.com/114892074/218672167-860ad3ba-946a-425f-b452-193babd69c57.gif) | ![UIKit](https://user-images.githubusercontent.com/114892074/218672161-c23230ad-d70f-435c-9974-cf398a85cb58.gif) |
 
 ----
-
 If you think this document is not clear enough please feel free to create a PR/issue.
